@@ -1,0 +1,20 @@
+<h1>Create new rumour</h1>
+<% if @post.errors.full_messages.any? %>
+<ul>
+  
+  <% @post.errors.full_messages.each do |msg| %>
+  <li>  <%= msg %></li>
+  <% end %>
+</ul>
+<% end %>
+<%= form_for(@post) do |f| %>
+  <p>
+    <%= f.label :title %>
+    <%= f.text_field :title%>
+  </p>
+  <p>
+    <%= f.label :body, value: "Content" %>
+    <%= f.text_area :body, size: "30x5" %>
+  </p>
+ <p> <%= f.submit "Create" %></p>
+<% end %>
