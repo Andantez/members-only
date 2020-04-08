@@ -1,0 +1,18 @@
+     <%# @posts.each do |post| %>
+       <div class="card-container">
+          <div class="cards  animated bounceInLeft">
+            <% if logged_in? %>
+             <div class="author">  By <%= post.user.name %></div>
+               <% else %>
+              <div class="author">By (secret)</div>
+            <% end %>
+            <div class="content">
+               <p>Title: <%= post.title %></p>
+              
+               <p> <%= post.body %></p>
+            </div>
+            <p class="date">Created on: <%= post.created_at.strftime("%Y-%m-%d at %H:%M:%S") %></p>
+          </div>
+       </div>
+      <%# end %>
+     <%#= link_to "create new post" %>

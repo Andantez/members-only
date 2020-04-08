@@ -1,3 +1,28 @@
 // Place all the styles related to the Sessions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+.log-in {
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px auto !important;
+}
+
+.submit-btn {
+  background-color: #56E39F;
+  color: #2A1F2D;
+  border-radius: 5px;
+  border: 1px solid #56e39f;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 5px 10px;
+  &:hover {
+    background-color: #379E7D;
+  }
+}
+
+.submit-btn-p {
+  text-align: center;
+}

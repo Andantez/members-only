@@ -1,3 +1,80 @@
 // Place all the styles related to the Posts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+#logo {
+  font-size: 1em;
+  text-decoration: none;
+  color: #56E39F;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.ul-container {
+  font-size: 24px;
+}
+
+.list-item a {
+  color: #56E39F;
+  font-weight: bold;
+  padding: 10px;
+  animation-delay: 1s;
+  &:hover {
+    text-decoration: none;
+    color: #2C594B;
+  }
+}
+
+header {
+  background-color: #2A1F2D;
+}
+
+.main-container {
+  text-align: center;
+}
+
+.card-container {
+  border: 2px solid #2A1F2D;
+  width: 400px;
+  margin: 10px auto;
+  border-radius: 4px;
+  background-color: #2A1F2D;
+  border-bottom: 5px solid;
+  border-top: 5px solid;
+  color: white;
+}
+
+.author {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.content {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.date {
+  font-size: 12px;
+}
+
+.pagination {
+  justify-content: center;
+}
+
+.page-item.active .page-link {
+  background-color: #2A1F2D !important;
+  border-color: #2A1F2D !important;
+  color: white !important;
+}
+
+.page-link {
+  color: black !important;
+}
+
+.page-link:focus {
+  z-index: 3;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem #2a1f2d !important;
+}
+
