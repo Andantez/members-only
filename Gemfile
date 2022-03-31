@@ -14,7 +14,7 @@ gem 'sqlite3', '~> 1.4'
 gem 'bootstrap-will_paginate', '1.0.0'
 gem 'will_paginate-bootstrap4'
 gem 'font-awesome-sass', '~> 5.12.0'
-gem 'puma', '~> 4.1'
+gem 'puma', '~> 4.3'
 gem 'will_paginate', '3.1.7'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
